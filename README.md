@@ -14,3 +14,5 @@ Gestión Matricula - Estudiante:
 - listar
 - Consultar
 - registro -> (Selección de la asignatura que se le añadira a la matricula del estudiante, ademas su grupo, jornada y progrma académico).
+
+Realizado por Brayan Mejia.
