@@ -15,4 +15,4 @@ Gestión Matricula - Estudiante:
 - Consultar
 - registro -> (Selección de la asignatura que se le añadira a la matricula del estudiante, ademas su grupo, jornada y progrma académico).
 
-Realizado por Brayan Mejia.
+Desarrollado por Brayan Mejia - Tecnólogo en desarrollo de sistemas informaticos.
