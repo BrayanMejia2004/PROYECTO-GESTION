@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroMatricula">
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="414dp"
+        android:layout_height="210dp"
+        android:background="@drawable/stylo_cuadrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtRegistroGrupoMatricula"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="DIGITE GRUPO"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtRegistroJornadaMatricula"
+        android:layout_width="176dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="DIGITE JORNADA"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView78"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtRegistroProgramaAcademicoMatricula"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="DIGITE PROGRAMA"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView79"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="CODIGO ASIGNATURA:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="DOCUMENTO:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMCodigo" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="PROGRAMA ACADÉMICO:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMDocumento"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="JORNADA:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMDocumento" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="GRUPO:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spMDocumento" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="350dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="REGISTRO MATRICULA ESTUDIANTES"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btnRMatricula"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:onClick="RM"
+        android:text="REGISTRAR MATRICULA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistroProgramaAcademicoMatricula"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Spinner
+        android:id="@+id/spMCodigo"
+        android:layout_width="406dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/textView75"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Spinner
+        android:id="@+id/spMDocumento"
+        android:layout_width="409dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView76"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

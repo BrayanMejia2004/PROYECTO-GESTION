@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="BuscarAsignatura"
+    tools:context=".ConsultaAsignatura">
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="414dp"
+        android:layout_height="258dp"
+        android:background="@drawable/stylo_cuadrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="151dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/jjjpng" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="252dp"
+        android:layout_height="132dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="CONSULTA ASIGNATURA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView44"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <EditText
+        android:id="@+id/txtConsultaCodigoAsig"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="DIGITE CODIGO ASIG"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="99dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:onClick="BuscarAsignatura"
+        android:text="BUSCAR"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/txtConsultaCodigoAsig"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="CODIGO ASIGNATURA:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConsultaCodigoAsig"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="NOMBRE ASIGNATURA:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConsultaCodigo1Asig"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:text="CREDITOS ASIGNATURA:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConsultaNombreAsig"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtConsultaCodigo1Asig"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="CODIGO DE ASIGNATURA"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <EditText
+        android:id="@+id/txtConsultaNombreAsig"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="NOMBRE DE ASIGNATURA"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView56"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <EditText
+        android:id="@+id/txtConsultaCreditoAsig"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stylo_border_cajas"
+        android:ems="10"
+        android:fontFamily="@font/zcool_qingke_huangyou"
+        android:hint="CREDITOS DE ASIGNATURA"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView57"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

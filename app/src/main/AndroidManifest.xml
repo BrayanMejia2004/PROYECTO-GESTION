@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoprincipal"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoprincipal"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoGestion"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegistroAsignatura"
+            android:label="REGISTRO ASIGNATURA"
+            android:parentActivityName=".RegistroAsignatura"/>
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaAsignatura"
+            android:exported="false"
+            android:value=".IntermediaAsignatura" />
+
+        <activity
+            android:name=".RegistroLogin"
+            android:label="REGISTRO INGRESO GESTIÓN"
+            android:parentActivityName=".RegistroLogin" />
+
+        <meta-data
+            android:name="android.support.PARENT_MainActivity"
+            android:exported="false"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".RegistroMatricula"
+            android:label="REGISTRO ASIGNATURA "
+            android:parentActivityName=".RegistroMatricula" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaMatricula"
+            android:exported="false"
+            android:value=".IntermediaMatricula" />
+
+        <activity
+            android:name=".ConsultaMatricula"
+            android:label="CONSULTA ASIGNATURA "
+            android:parentActivityName=".ConsultaMatricula" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaMatricula"
+            android:exported="false"
+            android:value=".IntermediaMatricula" />
+
+        <activity
+            android:name=".ListaMatricula"
+            android:label="LISTA ASIGNATURA "
+            android:parentActivityName=".ListaMatricula" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaMatricula"
+            android:exported="false"
+            android:value=".IntermediaMatricula" />
+        <meta-data
+            android:name="android.support.PARENT_IntermediaAsignatura"
+            android:exported="false"
+            android:value=".IntermediaAsignatura" />
+
+        <activity
+            android:name=".ConsultaAsignatura"
+            android:label="CONSULTA ASIGNATURA "
+            android:parentActivityName=".ConsultaAsignatura" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaAsignatura"
+            android:exported="false"
+            android:value=".IntermediaAsignatura" />
+
+        <activity
+            android:name=".ListaAsignatura"
+            android:label="LISTA ASIGNATURA "
+            android:parentActivityName=".ListaAsignatura" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaAsignatura"
+            android:exported="false"
+            android:value=".IntermediaAsignatura" />
+
+        <activity
+            android:name=".RegistroEstudiantes"
+            android:label="REGISTRO ESTUDIANTES"
+            android:parentActivityName=".RegistroEstudiantes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaEstudiantes"
+            android:exported="false"
+            android:value=".IntermediaEstudiantes" />
+
+        <activity
+            android:name=".ConsultaEstudiantes"
+            android:label="CONSULTA ESTUDIANTES"
+            android:parentActivityName=".ConsultaEstudiantes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaEstudiantes"
+            android:exported="false"
+            android:value=".IntermediaEstudiantes" />
+
+        <activity
+            android:name=".ListaEstudiantes"
+            android:label="LISTA ESTUDIANTES"
+            android:parentActivityName=".ListaEstudiantes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaEstudiantes"
+            android:exported="false"
+            android:value=".IntermediaEstudiantes" />
+
+        <activity
+            android:name=".RegistrarDocentes"
+            android:label="REGISTRO DOCENTES"
+            android:parentActivityName=".RegistrarDocentes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaDocentes"
+            android:exported="false"
+            android:value=".IntermediaDocentes" />
+
+        <activity
+            android:name=".ConsultaDocentes"
+            android:label="CONSULTA DOCENTES"
+            android:parentActivityName=".ConsultaDocentes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaDocentes"
+            android:exported="false"
+            android:value=".IntermediaDocentes" />
+
+        <activity
+            android:name=".ListaDocentes"
+            android:label="LISTA DE DOCENTES"
+            android:parentActivityName=".ListaDocentes" />
+
+        <meta-data
+            android:name="android.support.PARENT_IntermediaDocentes"
+            android:exported="false"
+            android:value=".IntermediaDocentes" />
+
+        <activity
+            android:name=".IntermediaMatricula"
+            android:label="GESTIÓN ACADÉMICA MATRICULA"
+            android:parentActivityName=".IntermediaMatricula" />
+
+        <meta-data
+            android:name="android.support.PARENT_Menu"
+            android:exported="false"
+            android:value=".Menu" />
+
+        <activity
+            android:name=".IntermediaAsignatura"
+            android:label="GESTIÓN ACADÉMICA ASIGNATURA"
+            android:parentActivityName=".IntermediaAsignatura" />
+
+        <meta-data
+            android:name="android.support.PARENT_Menu"
+            android:exported="false"
+            android:value=".Menu" />
+
+        <activity
+            android:name=".IntermediaEstudiantes"
+            android:label="GESTIÓN ACADÉMICA ESTUDIANTE"
+            android:parentActivityName=".IntermediaEstudiantes" />
+
+        <meta-data
+            android:name="android.support.PARENT_Menu"
+            android:exported="false"
+            android:value=".Menu" />
+
+        <activity
+            android:name=".IntermediaDocentes"
+            android:label="GESTIÓN ACADÉMICA DOCENTE"
+            android:parentActivityName=".IntermediaDocentes" />
+
+        <meta-data
+            android:name="android.support.PARENT_Menu"
+            android:exported="false"
+            android:value=".Menu" />
+
+        <activity
+            android:name=".Menu"
+            android:label="MENÚ GESTIÓN ACADÉMICA"
+            android:parentActivityName=".Menu" />
+
+        <meta-data
+            android:name="android.support.PARENT_MainActivity"
+            android:exported="false"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
